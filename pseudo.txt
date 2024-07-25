@@ -1,0 +1,21 @@
+- Request a word (one word, according to the exercise)
+- Load a list of articles and prepositions
+- Input a word
+- Analyze the word
+- Transform it to lowercase
+    - Is it an article or a preposition?
+        - Compare it one by one to the list of preposition
+        - If there is one match
+            - leave it alone, print the word as it is
+            - and you’re done
+    - Create a list of vowels
+    - Is the first letter a vowel?
+        - add “way” to the end
+        - print the Pig Latin word
+        - you’re done
+    - If none of the previous has worked, then it is a word that begins with a consonant
+        - remove the first letter and save it
+        - save the first letter for later
+        - the Pig Latin word is the chopped word, then the first letter, then “ay”
+        - print the Pig Latin word
+        - you’re done
